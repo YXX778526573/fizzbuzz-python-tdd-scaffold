@@ -9,6 +9,6 @@ class test(unittest.TestCase):
         self.assertEqual("Buzz", FizzBuzz(10))
         self.assertEqual(31, FizzBuzz(31))
 
-        
+
 if __name__ == '__main__':
     unittest.main()
